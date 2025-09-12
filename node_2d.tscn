@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://gxm01bosy35q"]
+
+[ext_resource type="Texture2D" uid="uid://d4knspsch4814" path="res://icon.svg" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://c5k42j8uax7ua" path="res://Screenshot 2025-07-06 080841.png" id="2_epypp"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(219, 278)
+texture = ExtResource("1_0e48y")
+
+[node name="Screenshot2025-07-06080841" type="Sprite2D" parent="."]
+position = Vector2(644, 292)
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("2_epypp")
